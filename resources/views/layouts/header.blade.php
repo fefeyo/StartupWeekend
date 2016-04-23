@@ -1,0 +1,9 @@
+<header>
+    <nav>
+        <ul>
+            <li>サンプル</li>
+            <li>サンプル</li>
+            <li>サンプル</li>
+        </ul>
+    </nav>
+</header>

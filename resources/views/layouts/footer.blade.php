@@ -1,0 +1,1 @@
+<footer>©Sample Copyright</footer>
