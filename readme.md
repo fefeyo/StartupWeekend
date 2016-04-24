@@ -1,27 +1,70 @@
-# Laravel PHP Framework
+#Plus LINK
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+##使い方
+被災した現地の人：アプリを使用
+応援する人：Webサービス
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+###現地の人（Android）
+ログイン不要
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+アプリの起動
+・被災地の場所
+・被災地の状況
+・必要な物資
+・必要な個数
+を入力後送信
 
-## Official Documentation
+Androidのセンサーで位置情報を送信、送信時間も記録します。
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
 
-## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+###応援者（Web）
+ログインが必要
 
-## Security Vulnerabilities
+###役割
+　支援者
+　運送者
+　倉庫
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+支援者は被災地へ物資支援が可能
+運送者は倉庫から被災地
+倉庫は場所を提供することで支援物資の取りまとめを行う
 
-## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+このサービスを使用することで、支援物資の不足状況や何を必要としているかをすぐに確認と支援ができます。
+
+We have made the service.
+The service is intended to be used in the event of a disaster such as an earthquake.
+
+How to use
+It affected the local people: use the app
+Cheer to people: Web Service
+
+Local people (Android)
+No sign-in required
+
+App start-up of
+- Affected areas of location
+- Affected areas of the situation
+- Required supplies
+- Required number
+After entering the transmission
+
+It transmits the location information in the Android of the sensor, also records the transmission time.
+
+
+
+Supporter (Web)
+You must be logged
+
+role
+ supporter
+ Transporter
+ Warehouse
+
+Support person is capable of goods assistance to affected areas
+Transportation shall place the disaster from the warehouse
+Warehouse performs a compilation of relief supplies by providing a location
+
+
+This service is that you use the confirmation and you can help immediately or are in need of what the shortage situation of and relief supplies.
